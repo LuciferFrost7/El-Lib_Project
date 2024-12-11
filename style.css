@@ -39,6 +39,7 @@ img.img_logo{
 img.img_logo:hover{
     background-color: #597688;;
 }
+
 img.img_name{
     width: 85%;
     height: 85%;
@@ -47,4 +48,14 @@ img.img_name{
 }
 img.img_name:hover{
     background-color: #597688;;
+}
+
+li.citata{
+    width: 650px;
+    font-size: large;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    align-self: center;
 }
