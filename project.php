@@ -30,9 +30,16 @@
 
             echo $newCitats[array_rand($newCitats)];
             ?></li>
-        <li></li>
+        <li>
+            <div>
+                <a href="#" class="label_login">Логин</a>
+                <a href="#" class="label_reg">Регистрация</a>
+                <a href="#" class="label_account">Профиль</a>
+                <img class="label_photo" width="90px" height="90px" alt="Sory, Image" src="Images/user_icon.png">
+                <img class="Book_Loaded" src="Images/Book_Logined.png" alt="Sory, Image">
+            </div>
+        </li>
     </ul>
 </nav>
-
 </body>
 </html>

@@ -56,6 +56,39 @@ li.citata{
     font-family: 'Comic Sans MS', cursive, sans-serif;
     margin-top: 50px;
     margin-left: 25px;
-    margin-right: 25px;
     align-self: center;
+}
+
+.Book_Loaded{
+    background-image: image("Images/Book_Logined.png");
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 255px;
+    height: 112px;
+}
+
+.label_login{
+    position: absolute;
+    top: 30px;
+    padding-left: 15px;
+}
+
+.label_reg{
+    position: absolute;
+    top:50px;
+    padding-left: 15px;
+}
+
+.label_account{
+    position: absolute;
+    top: 70px;
+    padding-left: 15px;
+}
+
+.label_photo{
+    background-color: purple;
+    position: absolute;
+    top: 25px;
+    margin-left: 150px;
+    border: 1px solid black;
 }
