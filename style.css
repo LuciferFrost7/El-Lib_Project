@@ -59,6 +59,14 @@ li.citata{
     align-self: center;
 }
 
+.book{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 165px;
+    width: 95px;
+    height: 112px;
+}
+
 .Book_Loaded{
     background-image: image("Images/Book_Logined.png");
     margin-top: 10px;
@@ -91,4 +99,11 @@ li.citata{
     top: 25px;
     margin-left: 150px;
     border: 1px solid black;
+}
+
+.label_relink{
+    width:90px;
+    position: absolute;
+    right: 50px;
+    margin-top: 90px;
 }

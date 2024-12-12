@@ -8,7 +8,7 @@
 <body>
 <nav>
     <ul>
-        <li><img class="img_logo" src="Images/Icon.png" alt="Sory, Image"></li>
+        <li><a href="index.php" title="go to main page"><img class="img_logo" src="Images/Icon.png" alt="Sory, Image"></a></li>
         <li><img class="img_name" src="Images/Name.png" alt="Sory, Image"></li>
         <li class="citata"><?php
             $citats = array('А судьи кто?' => '5', 'Делить со всяким можно смех' => '5',
@@ -32,11 +32,8 @@
             ?></li>
         <li>
             <div>
-                <a href="#" class="label_login">Логин</a>
-                <a href="#" class="label_reg">Регистрация</a>
-                <a href="#" class="label_account">Профиль</a>
-                <img class="label_photo" width="90px" height="90px" alt="Sory, Image" src="Images/user_icon.png">
-                <img class="Book_Loaded" src="Images/Book_Logined.png" alt="Sory, Image">
+                <a href="reg_form.php" class="label_relink">Регистрация</a>
+                <img class="book" src="Images/Book.png" alt="Sory, Image">
             </div>
         </li>
     </ul>
